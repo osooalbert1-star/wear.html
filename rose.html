@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosedilima | Premium Kids Clothing</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">ROSEDILIMA</a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#new-arrivals">New Arrivals</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">Our Quality</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+        </div>
+    </header>
+
+    <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('hero.png');">
+        <div class="hero-content">
+            <h1>Delivering the best quality</h1>
+            <p>Premium clothing for moments that matter. From newborns to age 6.</p>
+            <a href="#categories" class="btn">Shop Collection</a>
+        </div>
+    </section>
+
+    <section id="categories" class="categories">
+        <h2 class="section-title">Shop by Category</h2>
+        <div class="category-grid">
+            <div class="category-card" onclick="alert('Viewing Pajamas')">
+                <div class="category-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1515488403636-ee99cf99bd4a?auto=format&fit=crop&w=800&q=60');">
+                </div>
+                <div class="category-info">
+                    <h3>Pajamas</h3>
+                    <p>Soft & Breathable</p>
+                </div>
+            </div>
+            <div class="category-card" onclick="alert('Viewing Trousers')">
+                <div class="category-img" style="background-image: url('trousers.png');"></div>
+                <div class="category-info">
+                    <h3>Trousers & Tights</h3>
+                    <p>Durable & Comfortable</p>
+                </div>
+            </div>
+            <div class="category-card" onclick="alert('Viewing T-Shirts')">
+                <div class="category-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=60');">
+                </div>
+                <div class="category-info">
+                    <h3>T-Shirts & Tops</h3>
+                    <p>Everyday Essentials</p>
+                </div>
+            </div>
+            <div class="category-card" onclick="alert('Viewing Accessories')">
+                <div class="category-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=800&q=60');">
+                </div>
+                <div class="category-info">
+                    <h3>Hats & Socks</h3>
+                    <p>The Perfect Finish</p>
+                </div>
+            </div>
+            <div class="category-card" onclick="alert('Viewing Shorts')">
+                <div class="category-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=800&q=60');">
+                </div>
+                <div class="category-info">
+                    <h3>Shorts</h3>
+                    <p>Summer Ready</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="new-arrivals">
+        <h2 class="section-title">New Arrivals</h2>
+        <div class="product-grid">
+            <!-- Example Products -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300" alt="Product 1" id="prod-1">
+                <h3>Organic Cotton Onesie</h3>
+                <p class="price">$24.99</p>
+                <button class="btn" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300" alt="Product 2" id="prod-2">
+                <h3>Knit Beanie Hat</h3>
+                <p class="price">$15.00</p>
+                <button class="btn" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300" alt="Product 3" id="prod-3">
+                <h3>Comfy Stretch Leggings</h3>
+                <p class="price">$18.99</p>
+                <button class="btn" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300" alt="Product 4" id="prod-4">
+                <h3>Bear Ear Hoodie</h3>
+                <p class="price">$32.00</p>
+                <button class="btn" style="padding: 0.5rem 1rem; font-size: 0.8rem;">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h3>ROSEDILIMA</h3>
+            <p>Delivering the best quality for your little ones.</p>
+            <p>&copy; 2026 Rosedilima Ent. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
