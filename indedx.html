@@ -1,0 +1,210 @@
+DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilimas Shop | Premium Baby Boutique</title>
+    <meta name="description"
+        content="Discover premium baby clothing at Dilimas Shop. Located at Adams Toi, Ngong Road. Quality you can trust for your little ones.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+    <header id="main-header">
+        <div class="container header-cont ainer">
+            <a href="/" class="logo">DILIMAS<span>SHOP</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#new-arrivals">New Arrivals</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#about">Our Story</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="cart-btn" id="cart-toggle">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                    <span class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1 class="reveal-text">Gentle Care for Your <br><span>Little Wonders</span></h1>
+                <p>Premium organic fabrics designed for comfort and style. From newborn essentials to boutique fashion.
+                </p>
+                <div class="hero-btns">
+                    <a href="#categories" class="btn btn-primary">Shop Collection</a>
+                    <a href="#new-arrivals" class="btn btn-outline">New Arrivals</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories" class="categories">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Shop by Category</h2>
+                    <p>Curated collections for every stage of growth.</p>
+                </div>
+                <div class="category-grid">
+                    <div class="category-card" data-category="pajamas">
+                        <div class="card-img" style="background-image: url('pajamas.png')">
+                        </div>
+                        <div class="card-overlay">
+                            <h3>Soft Pajamas</h3>
+                            <a href="#" class="shop-link">View All</a>
+                        </div>
+                    </div>
+                    <div class="category-card" data-category="onesies">
+                        <div class="card-img" style="background-image: url('onesie.png')">
+                        </div>
+                        <div class="card-overlay">
+                            <h3>Onesies & Sets</h3>
+                            <a href="#" class="shop-link">View All</a>
+                        </div>
+                    </div>
+                    <div class="category-card" data-category="outerwear">
+                        <div class="card-img" style="background-image: url('outerwear.png')">
+                        </div>
+                        <div class="card-overlay">
+                            <h3>Cozy Outerwear</h3>
+                            <a href="#" class="shop-link">View All</a>
+                        </div>
+                    </div>
+                    <div class="category-card" data-category="accessories">
+                        <div class="card-img" style="background-image: url('beanie.png')">
+                        </div>
+                        <div class="card-overlay">
+                            <h3>Accessories</h3>
+                            <a href="#" class="shop-link">View All</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="new-arrivals" class="products">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">New Arrivals</h2>
+                    <p>Our latest season's favorites are here.</p>
+                </div>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="onesie.png" alt="Organic Cotton Onesie">
+                        </div>
+                        <div class="product-info">
+                            <span class="category-tag">Onesie</span>
+                            <h3>Organic Cotton Onesie</h3>
+                            <p class="price">KSh 1,200</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="beanie.png" alt="Hand-Knit Beanie">
+                        </div>
+                        <div class="product-info">
+                            <span class="category-tag">Accessories</span>
+                            <h3>Knit Beanie Hat</h3>
+                            <p class="price">KSh 800</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="hoodie.png" alt="Bear Ear Hoodie">
+                        </div>
+                        <div class="product-info">
+                            <span class="category-tag">Outerwear</span>
+                            <h3>Bear Ear Hoodie</h3>
+                            <p class="price">KSh 1,800</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="pajamas.png" alt="Cloud Print Pajamas">
+                        </div>
+                        <div class="product-info">
+                            <span class="category-tag">Pajamas</span>
+                            <h3>Soft Pajamas Set</h3>
+                            <p class="price">KSh 1,500</p>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container about-grid">
+                <div class="about-text">
+                    <h2 class="section-title">Our Boutique</h2>
+                    <p>Dilimas Shop is more than just a clothing store; we are a family-owned boutique dedicated to
+                        bringing you the finest quality for your little ones. We source only the softest fabrics to
+                        ensure your baby feels as good as they look.</p>
+                    <p><strong>Find us at:</strong><br>Adams Toi, along Ngong Road, Nairobi.</p>
+                    <div class="location-badge">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2"
+                            fill="none">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <span>Adams Toi, Ngong Rd</span>
+                    </div>
+                </div>
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=800&q=80"
+                        alt="Boutique Interior">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <h3>DILIMAS<span>SHOP</span></h3>
+                <p>Quality you can trust, styles they will love.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#new-arrivals">New Arrivals</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Email: hello@dilimas.com</p>
+                <p>Phone: +254 7XX XXX XXX</p>
+                <p>Loc: Adams Toi, Ngong Road</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Dilimas Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
